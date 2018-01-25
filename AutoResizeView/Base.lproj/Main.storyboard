@@ -37,17 +37,28 @@
                                     <constraint firstItem="tvy-Y6-5b3" firstAttribute="leading" secondItem="BIZ-f7-lkC" secondAttribute="leading" id="eq5-Gd-3Vc"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dai-Du-3X6">
-                                <rect key="frame" x="90" y="292" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dai-Du-3X6">
+                                <rect key="frame" x="0.0" y="223" width="375" height="240"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Znw-DQ-B5T">
+                                <rect key="frame" x="62" y="463" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="BIZ-f7-lkC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2DG-Ed-bSt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Znw-DQ-B5T" secondAttribute="trailing" constant="73" id="363-eh-6lQ"/>
+                            <constraint firstItem="Znw-DQ-B5T" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="463" id="6D7-oV-zwt"/>
+                            <constraint firstItem="Znw-DQ-B5T" firstAttribute="top" secondItem="dai-Du-3X6" secondAttribute="bottom" id="DPq-Sb-FDd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Znw-DQ-B5T" secondAttribute="bottom" constant="76" id="R0N-sn-Fyt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dai-Du-3X6" secondAttribute="trailing" id="Rbq-EU-S5G"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BIZ-f7-lkC" secondAttribute="trailing" id="U2P-NH-KYq"/>
+                            <constraint firstItem="dai-Du-3X6" firstAttribute="top" secondItem="BIZ-f7-lkC" secondAttribute="bottom" id="Vfy-Th-62R"/>
+                            <constraint firstItem="dai-Du-3X6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ygz-Bt-FYq"/>
                             <constraint firstItem="BIZ-f7-lkC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cRK-Lz-gRl"/>
+                            <constraint firstItem="Znw-DQ-B5T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="dgi-rM-YK7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
